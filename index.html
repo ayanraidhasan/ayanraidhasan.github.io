@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title >Monty Hall Game</title>
+  <link rel = "title-font" href="https://fonts.google.com/specimen/Fredoka+One?category=Display">
+  <link rel = "display-font" href="https://fonts.google.com/specimen/Ubuntu?category=Sans+Serif">
+  <link rel = "stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+
+ <body>
+  
+  <h1 class = "title">
+    Monty Hall Game
+  </h1>
+
+
+
+<div class = "rules-about">
+<center><button type = "submit" class = "modal1" data-modal-target="#modal">Rules</button></center>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title1">Rules</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      1. You are given the choice of three doors.<br>
+      2. Behind one door is a car, behind the other two doors, are goats.<br>
+      3. Choose one door initially.<br>
+      4. The host (who knows what is behind each door) reveals to you one of the two other doors.<br>
+      5. This revealed door always contains a goat.<br>
+      6. You are given the option of sticking with your initial door or to switch to the other unopened door.<br>
+      7. You either win or lose.<br>
+      8. Is it more strategic to stay or switch?<br>
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+</div>
+
+<div class="door-buttons">
+  <button class = "button" id  = "Door 1" type="button" onclick='document.getElementById("instructions").innerHTML = "Door #2 contained a goat. Do you want to stay or switch?"'>Door #1</button>
+  <button class = "button" id = "Door 2" type="button" onclick='document.getElementById("instructions").innerHTML = "Door #2 contained a goat. Do you want to stay or switch?"'>Door #2</button>
+  <button class = "button" id = "Door 3" type="button" onclick='document.getElementById("instructions").innerHTML = "Door #2 contained a goat. Do you want to stay or switch?"'>Door #3</button>
+</div>
+
+<div class="Switch-Stay">
+  <button class = "SwitchStay" type = "button" id = "Stay"  onclick= 'document.getElementById("instructions").innerHTML = "You won!"'>Stay</button>
+  <button class = "SwitchStay" type = "button" id = "Switch" onclick= 'document.getElementById("instructions").innerHTML = "You won!"'>Switch</button>
+</div>
+
+
+    <p id = "message" class="instructions">Click on any door to play!</p>
+    
+    
+ 
+
+  </body>
+
+</html>
