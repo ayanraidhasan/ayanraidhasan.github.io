@@ -488,11 +488,6 @@ data_export ()
 //switch clicks - switch wins = switch loss
 //stay clicks - stay wins = stay loss
 
-const app = document.getElementById('app');
-const change_app_text = (text) => app.innerText = text;
-
-change_app_text('Text you want');
-
 	
 
   
