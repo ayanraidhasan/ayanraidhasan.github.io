@@ -1,0 +1,95 @@
+/* main menu css*/
+
+body {
+  background: rgb(20,156,207);
+background: linear-gradient(90deg, rgba(20,156,207,1) 0%, rgba(27,190,185,1) 46%, rgba(27,190,185,1) 90%);
+}
+
+.title {
+  font-family: 'Futura Black', sans-serif;
+  color: #C3073F;
+  text-align: center;
+  font-size: 200px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.T {
+    color: #FD3F59
+  }
+
+  .E {
+    color: #FFC82E
+  }
+
+  .T2 {
+    color: #FF910C
+  }
+
+  .R {
+    color: #53DA3F
+  }
+
+  .I {
+    color: #01EDFA
+  }
+
+  .S {
+    color: #DD0AB2
+  }
+
+
+.Image {
+    padding-right: 10px;
+    margin: 0px;
+    width: 36px;
+    height: 10px; 
+}
+
+a {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #FD3F59;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.Options {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #FD3F59; 
+    padding: 0px;
+    padding-top: 20px;
+    margin: 0px;
+    border: 0px;
+    display: flex;
+}
+
+.Options:focus {
+  outline: 
+}
+
+.HighScores {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #FD3F59; 
+  display: flex;
+}
+
+
+.Menu {
+    display: flex;
+    justify-content: center;
+    padding: 0px;  
+    margin: 0px;
+}
+
+
+
