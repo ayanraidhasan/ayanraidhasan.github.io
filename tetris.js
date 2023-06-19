@@ -5,6 +5,8 @@ variables:
     gS = gridSize
 */
 
+let name = prompt("Please enter your username");
+
 document.addEventListener('DOMContentLoaded', () => {
 
     const gW = 10
